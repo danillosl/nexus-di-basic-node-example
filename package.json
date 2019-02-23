@@ -1,0 +1,33 @@
+{
+  "name": "nexus-di-basic-node-example",
+  "version": "1.0.0",
+  "description": "A basic example that showcases how to use nexus-di with node",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "build": "babel src --out-dir dist",
+    "serve": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danillosl/nexus-di-basic-node-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danillosl/nexus-di-basic-node-example/issues"
+  },
+  "homepage": "https://github.com/danillosl/nexus-di-basic-node-example#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/preset-env": "^7.3.1",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "nexus-di": "^0.3.0"
+  }
+}
