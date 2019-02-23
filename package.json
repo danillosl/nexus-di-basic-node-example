@@ -4,9 +4,7 @@
   "description": "A basic example that showcases how to use nexus-di with node",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node src/index.js",
-    "build": "babel src --out-dir dist",
-    "serve": "node dist/index.js"
+    "start": "babel-node src/index.js"
   },
   "repository": {
     "type": "git",
